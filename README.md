@@ -21,4 +21,4 @@
  
  ## :memo: License
 
-This project is under the MIT license. See the [LICENSE] file (/ LICENSE) for more details.
+This project is under the MIT license. See the [LICENSE](/LICENSE) for more details.
