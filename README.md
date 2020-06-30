@@ -14,6 +14,10 @@
 
 - styling with pure CSS
     - Using class and good practices
+    
+- fuctions made with pure Javascript
+    - Doom Manipulation
+    - Events Manipulation
 
  ## References
  
