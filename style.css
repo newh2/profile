@@ -97,6 +97,7 @@ header {
 }
 .card {
   background-color: var(--color-rocket);
+  cursor: pointer;
 }
 .card_image-container img {
   width: 100%;
@@ -126,6 +127,8 @@ header {
   height: 100%;
   position: fixed;
   top: 0;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal {
@@ -142,4 +145,36 @@ header {
   right: 8px;
   top: 8px;
   cursor: pointer;
+}
+/*===MODAL ACTIVE===*/
+.modal_overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 30px;
+  border-bottom: 1px solit #333;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+footer a {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 16px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-green);
+}
+footer a:hover {
+  color: #50fa7b;
+  transition: color 400ms;
 }
